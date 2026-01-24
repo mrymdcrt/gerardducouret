@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Gérard Ducouret</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body class="page-contact">
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header>
+    <div class="container topbar">
+      <div class="brand"><strong>Gérard Ducouret</strong><span>Sculpture</span></div>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-drawer" aria-expanded="false">
+        <span data-nav-icon aria-hidden="true">☰</span><span>Menu</span>
+      </button>
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="biographie.html">Biographie</a></li>
+          <li><a href="techniques.html">Technique</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav id="nav-drawer" class="nav-drawer container" data-nav-drawer aria-label="Navigation principale (mobile)">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="biographie.html">Biographie</a></li>
+        <li><a href="techniques.html">Technique</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <div class="container">
+      <article class="card">
+        <h1>Contact</h1>
+        <p class="note">N'hésitez pas à me contacter.</p>
+
+        <!-- IMPORTANT: mets ton email ici -->
+        <form data-contact-form data-to="gerard.ducouret@laposte.net">
+          <div>
+            <label for="name">Nom</label>
+            <input id="name" name="name" autocomplete="name" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+          </div>
+
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+
+        <p class="note" data-contact-success hidden style="margin-top:12px;">
+          ✅ Merci ! Votre message a bien été préparé dans votre messagerie.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="container">© Gérard Ducouret 2025 – Tous droits réservés</div></footer>
+</body>
+</html>
+

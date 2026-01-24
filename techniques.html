@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Technique — Gérard Ducouret</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+<body class="page-technique">
+
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header>
+    <div class="container topbar">
+      <div class="brand"><strong>Gérard Ducouret</strong><span>Sculpture</span></div>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-controls="nav-drawer" aria-expanded="false">
+        <span data-nav-icon aria-hidden="true">☰</span><span>Menu</span>
+      </button>
+      <nav class="nav-desktop" aria-label="Navigation principale">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="biographie.html">Biographie</a></li>
+          <li><a href="techniques.html">Technique</a></li>
+          <li><a href="galerie.html">Galerie</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <nav id="nav-drawer" class="nav-drawer container" data-nav-drawer aria-label="Navigation principale (mobile)">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="biographie.html">Biographie</a></li>
+        <li><a href="techniques.html">Technique</a></li>
+        <li><a href="galerie.html">Galerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <div class="container">
+      <article class="card">
+        <h1>Technique</h1>
+        <p class="note">Vidéo de présentation</p>
+
+        <div style="margin-top:14px;">
+          <video controls playsinline style="width:100%; border-radius:16px; border:1px solid var(--line); background:#000;">
+            <!-- Mets ici le bon fichier -->
+            <source src="Medias/video_galerie.mp4" type="video/mp4" />
+            Votre navigateur ne supporte pas la vidéo HTML5.
+          </video>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer><div class="container">© Gérard Ducouret 2025 – Tous droits réservés</div></footer>
+</body>
+</html>
+
