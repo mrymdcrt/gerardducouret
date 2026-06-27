@@ -116,4 +116,17 @@
     if (e.key === "Escape" && root.classList.contains("open")) closeLightbox();
   });
 })();
+function showCollection(id, button) {
 
+    document.querySelectorAll('.collection').forEach(collection => {
+        collection.style.display = 'none';
+    });
+
+    document.getElementById(id).style.display = 'grid';
+
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+
+    button.classList.add('active');
+}
