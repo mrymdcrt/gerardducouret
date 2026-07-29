@@ -130,3 +130,57 @@ function showCollection(id, button) {
 
     button.classList.add('active');
 }
+
+// Chargement dynamique de la galerie depuis Google Sheets
+(function () {
+  const SHEET_CSV_URL = "COLLE_TON_LIEN_CSV_ICI";
+
+  const containers = document.getElementById("narvilitus");
+  if (!containers) return; // pas sur la page galerie
+
+  Papa.parse(SHEET_CSV_URL, {
+    download: true,
+    header: true,
+    complete: function (results) {
+      results.data.forEach((row, index) => {
+        if (!row.Titre || !row.ImageURL) return;
+
+        const collectionId = (row.Collection || "").trim().toLowerCase();
+        const target = document.getElementById(collectionId);
+        if (!target) return;
+
+        const caption = `${row.Titre} : ${row.Description || ""}. ${row.Dimensions || ""}`;
+
+        const figure = document.createElement("figure");
+        figure.className = "figure";
+        figure.innerHTML = `
+          <div class="imgwrap">
+            <button class="imgbtn" type="button" data-lightbox
+              data-src="${row.ImageURL}"
+              data-alt="${row.Titre}"
+              data-caption="${caption}">
+              <img loading="lazy" src="${row.ImageURL}" alt="${row.Titre}">
+            </button>
+          </div>
+          <figcaption>${caption}</figcaption>
+        `;
+        target.appendChild(figure);
+      });
+
+      // Réactive le lightbox sur les nouvelles images générées dynamiquement
+      document.querySelectorAll("[data-lightbox]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const root = document.querySelector("[data-lightbox-root]");
+          const img = root.querySelector("[data-lightbox-img]");
+          const cap = root.querySelector("[data-lightbox-caption]");
+          img.src = btn.getAttribute("data-src");
+          img.alt = btn.getAttribute("data-alt") || "";
+          cap.textContent = btn.getAttribute("data-caption") || "";
+          root.classList.add("open");
+          root.setAttribute("aria-hidden", "false");
+          document.body.style.overflow = "hidden";
+        });
+      });
+    },
+  });
+})();
