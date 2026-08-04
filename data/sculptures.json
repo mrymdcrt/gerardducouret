@@ -5,6 +5,13 @@
       "titre": "Narvilitus 1",
       "dimensions": "34h ",
       "image": "/Medias/IM2.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "narvilitus 2",
+      "description": "efef",
+      "dimensions": "H 23 L 54",
+      "image": "/Medias/IM13.webp"
     }
   ]
 }
