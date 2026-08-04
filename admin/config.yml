@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: mrymdcrt/gerardducouret
+  branch: main
+  base_url: https://TON-PROXY-OAUTH.vercel.app
+
+media_folder: "Medias"
+public_folder: "/Medias"
+
+collections:
+  - name: "sculptures"
+    label: "Sculptures"
+    files:
+      - file: "data/sculptures.json"
+        label: "Liste des sculptures"
+        name: "sculptures"
+        fields:
+          - label: "Sculptures"
+            name: "sculptures"
+            widget: "list"
+            fields:
+              - {label: "Collection", name: "collection", widget: "select", options: ["narvilitus", "chondrilonges"]}
+              - {label: "Titre", name: "titre", widget: "string"}
+              - {label: "Description", name: "description", widget: "string", required: false}
+              - {label: "Dimensions", name: "dimensions", widget: "string", required: false}
+              - {label: "Image", name: "image", widget: "image"}
