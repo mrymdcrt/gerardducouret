@@ -2,7 +2,7 @@ backend:
   name: github
   repo: mrymdcrt/gerardducouret
   branch: main
-  base_url: https://TON-PROXY-OAUTH.vercel.app
+  base_url: https://decap-cms-oauth-kappa-pied.vercel.app
 
 media_folder: "Medias"
 public_folder: "/Medias"
