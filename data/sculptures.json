@@ -2,14 +2,8 @@
   "sculptures": [
     {
       "collection": "narvilitus",
-      "titre": "Narvilitus 1",
-      "dimensions": "34h ",
-      "image": "/Medias/IM2.webp"
-    },
-    {
-      "collection": "narvilitus",
-      "titre": "narvilitus 2",
-      "description": "Narvilitus n°1 : marbre bleu Turquin et Soignies.",
+      "titre": "Narvilitus n°1 :",
+      "description": " marbre bleu Turquin et Soignies.",
       "dimensions": " H 0.45m + pointe = L 0.78m",
       "image": "/Medias/IM2.webp"
     }
