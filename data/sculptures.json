@@ -26,7 +26,7 @@
       "titre": "Narvilitus n°4  ",
       "description": "marbre de Carrare",
       "dimensions": "H 0.30m + pointe = L 0.78m",
-      "image": "/Medias/IM4.webp"
+      "image": "/Medias/image8.webp"
     },
     {
       "collection": "narvilitus",
@@ -34,6 +34,34 @@
       "description": "marbre bleu Turquin et Soignies",
       "dimensions": " L 0.80m avec pointe H 0.22m",
       "image": "/Medias/IM5.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°6  ",
+      "description": " matériau voile de béton coloré",
+      "dimensions": "H 0.40m L 1.40 pointe L 0.50m",
+      "image": "/Medias/image11.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°7",
+      "description": " marbre bleu Turquin",
+      "dimensions": "  H 0.37m L 0.42m. Pointe en Soignies L 0.59m",
+      "image": "/Medias/image9.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°8  ",
+      "description": "marbre Lunel",
+      "dimensions": "H 0.50m L 0.35m. 2 pointes en Soignies L 0.60m",
+      "image": "/Medias/image1.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°9",
+      "description": " marbre bleu Turquin et Soignies",
+      "dimensions": " H 0.50m L 0.65m",
+      "image": "/Medias/image4.webp"
     }
   ]
 }
