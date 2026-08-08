@@ -62,6 +62,11 @@
       "description": " marbre bleu Turquin et Soignies",
       "dimensions": " H 0.50m L 0.65m",
       "image": "/Medias/image4.webp"
+    },
+    {
+      "collection": "chondrilonges",
+      "image": "/Medias/C1.jpeg",
+      "titre": "Chondrilonge n°1"
     }
   ]
 }
