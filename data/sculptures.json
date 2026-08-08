@@ -26,7 +26,14 @@
       "titre": "Narvilitus n°4  ",
       "description": "marbre de Carrare",
       "dimensions": "H 0.30m + pointe = L 0.78m",
-      "image": "/Medias/image8.webp"
+      "image": "/Medias/IM4.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°5",
+      "description": "marbre bleu Turquin et Soignies",
+      "dimensions": " L 0.80m avec pointe H 0.22m",
+      "image": "/Medias/IM5.webp"
     }
   ]
 }
