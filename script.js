@@ -150,19 +150,7 @@
         `;
         target.appendChild(figure);
       });
-function showCollection(id, button) {
-  document.querySelectorAll('.collection').forEach(collection => {
-    collection.style.display = 'none';
-  });
 
-  document.getElementById(id).style.display = 'grid';
-
-  document.querySelectorAll('.tab').forEach(tab => {
-    tab.classList.remove('active');
-  });
-
-  button.classList.add('active');
-}
       // Réactive le lightbox sur les images générées dynamiquement
       document.querySelectorAll("[data-lightbox]").forEach((btn) => {
         btn.addEventListener("click", () => {
@@ -180,3 +168,16 @@ function showCollection(id, button) {
     })
     .catch((err) => console.error("Erreur de chargement des sculptures :", err));
 })();
+function showCollection(id, button) {
+  document.querySelectorAll('.collection').forEach(collection => {
+    collection.style.display = 'none';
+  });
+
+  document.getElementById(id).style.display = 'grid';
+
+  document.querySelectorAll('.tab').forEach(tab => {
+    tab.classList.remove('active');
+  });
+
+  button.classList.add('active');
+}
