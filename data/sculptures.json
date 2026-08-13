@@ -97,6 +97,16 @@
       "collection": "chondrilonges",
       "titre": "Chondrilonge n°7",
       "image": "/Medias/C4.jpg"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°10",
+      "image": "/Medias/IM10.webp"
+    },
+    {
+      "titre": "Narvilitus n°11",
+      "collection": "narvilitus",
+      "image": "/Medias/IM71.webp"
     }
   ]
 }
