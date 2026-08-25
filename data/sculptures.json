@@ -112,6 +112,72 @@
       "collection": "narvilitus",
       "titre": "Narvilitus n°12",
       "image": "/Medias/IM91.webp"
+    },
+    {
+      "collection": "ballons",
+      "titre": "Ballon n°1",
+      "image" : "/Medias/B1.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°2",
+      "image" : "/Medias/B2.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°3",
+      "image" : "/Medias/B3.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°4",
+      "image" : "/Medias/B4.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°5",
+      "image" : "/Medias/B5.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°6",
+      "image" : "/Medias/B6.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°7",
+      "image" : "/Medias/B7.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°8",
+      "image" : "/Medias/B8.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°9",
+      "image" : "/Medias/B9.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°10",
+      "image" : "/Medias/B10.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°11",
+      "image" : "/Medias/B11.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°12",
+      "image" : "/Medias/B12.jpg"
+    },
+     {
+      "collection": "ballons",
+      "titre": "Ballon n°13",
+      "image" : "/Medias/B13.jpg"
     }
+    
   ]
 }
