@@ -122,6 +122,26 @@
       "collection": "souffleurs",
       "titre": "Souffleur n°2",
       "image": "/Medias/b2.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°3",
+      "image": "/Medias/b3.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°4",
+      "image": "/Medias/b4.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°5",
+      "image": "/Medias/b5.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°6",
+      "image": "/Medias/b6.jpg"
     }
   ]
 }
