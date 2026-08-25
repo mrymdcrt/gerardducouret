@@ -116,68 +116,32 @@
     {
       "collection": "souffleurs",
       "titre": "Souffleur n°1",
-      "image" : "/Medias/B1.jpg"
+      "image": "/Medias/b1.jpg"
     },
-     {
+    {
       "collection": "souffleurs",
       "titre": "Souffleur n°2",
-      "image" : "/Medias/B2.jpg"
+      "image": "/Medias/B2.jpg"
     },
-     {
+    {
       "collection": "souffleurs",
       "titre": "Souffleur n°3",
-      "image" : "/Medias/B3.jpg"
+      "image": "/Medias/B3.jpg"
     },
-     {
+    {
       "collection": "souffleurs",
       "titre": "Souffleur n°4",
-      "image" : "/Medias/B4.jpg"
+      "image": "/Medias/B4.jpg"
     },
-     {
+    {
       "collection": "souffleurs",
       "titre": "Souffleur n°5",
-      "image" : "/Medias/B5.jpg"
+      "image": "/Medias/B5.jpg"
     },
-     {
+    {
       "collection": "souffleurs",
       "titre": "Souffleur n°6",
-      "image" : "/Medias/B6.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°7",
-      "image" : "/Medias/B7.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°8",
-      "image" : "/Medias/B8.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°9",
-      "image" : "/Medias/B9.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°10",
-      "image" : "/Medias/B10.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°11",
-      "image" : "/Medias/B11.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°12",
-      "image" : "/Medias/B12.jpg"
-    },
-     {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°13",
-      "image" : "/Medias/B13.jpg"
+      "image": "/Medias/B6.jpg"
     }
-    
   ]
 }
