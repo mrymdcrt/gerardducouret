@@ -112,6 +112,16 @@
       "collection": "narvilitus",
       "titre": "Narvilitus n°12",
       "image": "/Medias/IM91.webp"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°1",
+      "image": "/Medias/b1.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°2",
+      "image": "/Medias/b2.jpg"
     }
   ]
 }
