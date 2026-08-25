@@ -19,7 +19,7 @@ collections:
             name: "sculptures"
             widget: "list"
             fields:
-              - {label: "Collection", name: "collection", widget: "select", options: ["narvilitus", "chondrilonges"]}
+              - {label: "Collection", name: "collection", widget: "select", options: ["narvilitus", "chondrilonges", "souffleurs"]}
               - {label: "Titre", name: "titre", widget: "string"}
               - {label: "Description", name: "description", widget: "string", required: false}
               - {label: "Dimensions", name: "dimensions", widget: "string", required: false}
