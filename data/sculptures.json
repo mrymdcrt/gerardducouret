@@ -51,17 +51,17 @@
     },
     {
       "collection": "narvilitus",
-      "titre": "Narvilitus n°8  ",
-      "description": "marbre Lunel",
-      "dimensions": "H 0.50m L 0.35m. 2 pointes en Soignies L 0.60m",
-      "image": "/Medias/image1.webp"
-    },
-    {
-      "collection": "narvilitus",
       "titre": "Narvilitus n°9",
       "description": " marbre bleu Turquin et Soignies",
       "dimensions": " H 0.50m L 0.65m",
       "image": "/Medias/image4.webp"
+    },
+    {
+      "collection": "narvilitus",
+      "titre": "Narvilitus n°8  ",
+      "description": "marbre Lunel",
+      "dimensions": "H 0.50m L 0.35m. 2 pointes en Soignies L 0.60m",
+      "image": "/Medias/image1.webp"
     },
     {
       "collection": "chondrilonges",
@@ -157,6 +157,12 @@
       "collection": "souffleurs",
       "titre": "Souffleur n°9",
       "image": "/Medias/1000022625.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°10",
+      "description": "Marbre de Lunel ",
+      "image": "/Medias/1000022623.jpg"
     }
   ]
 }
