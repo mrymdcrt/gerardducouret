@@ -156,27 +156,32 @@
     {
       "collection": "souffleurs",
       "titre": "Souffleur n°9",
-      "image": "/Medias/1000022625.jpg"
+      "image": "/Medias/img_2620.jpeg"
     },
     {
       "collection": "souffleurs",
       "titre": "Souffleur n°10",
+      "image": "/Medias/1000022625.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°11",
       "description": "Marbre de Lunel ",
       "image": "/Medias/1000022623.jpg"
     },
     {
       "collection": "souffleurs",
-      "titre": "Souffleur n°11",
+      "titre": "Souffleur n°12",
       "image": "/Medias/img_2524.jpeg"
     },
     {
       "collection": "souffleurs",
-      "titre": "Souffleur n°12",
+      "titre": "Souffleur n°13",
       "image": "/Medias/img_2542.jpeg"
     },
     {
       "collection": "souffleurs",
-      "titre": "Souffleur n°13",
+      "titre": "Souffleur n°14",
       "image": "/Medias/img_2537.jpeg"
     }
   ]
