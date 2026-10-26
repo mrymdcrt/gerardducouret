@@ -163,6 +163,16 @@
       "titre": "Souffleur n°10",
       "description": "Marbre de Lunel ",
       "image": "/Medias/1000022623.jpg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°11",
+      "image": "/Medias/img_2524.jpeg"
+    },
+    {
+      "collection": "souffleurs",
+      "titre": "Souffleur n°12",
+      "image": "/Medias/img_2542.jpeg"
     }
   ]
 }
