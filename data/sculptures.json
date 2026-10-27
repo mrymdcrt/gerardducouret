@@ -155,6 +155,12 @@
     },
     {
       "collection": "souffleurs",
+      "titre": "Souffleur n°7",
+      "description": "Marbre de Lunel ",
+      "image": "/Medias/1000022623.jpg"
+    },
+    {
+      "collection": "souffleurs",
       "titre": "Souffleur n°8",
       "image": "/Medias/1000022626.jpg"
     },
@@ -167,12 +173,6 @@
       "collection": "souffleurs",
       "titre": "Souffleur n°10",
       "image": "/Medias/1000022625.jpg"
-    },
-    {
-      "collection": "souffleurs",
-      "titre": "Souffleur n°11",
-      "description": "Marbre de Lunel ",
-      "image": "/Medias/1000022623.jpg"
     },
     {
       "collection": "souffleurs",
