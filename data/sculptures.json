@@ -135,6 +135,11 @@
     },
     {
       "collection": "souffleurs",
+      "titre": "Souffleur n°4",
+      "image": "/Medias/img_2556.jpeg"
+    },
+    {
+      "collection": "souffleurs",
       "titre": "Souffleur n°5",
       "image": "/Medias/img_2614.jpeg"
     },
